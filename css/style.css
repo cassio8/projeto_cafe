@@ -1,0 +1,84 @@
+/*
+ * #52380A
+ * #EBB042
+ * #D19119
+ * #523B12
+ * #9E6D13
+*/
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1170px;
+}
+
+body {
+	background-color: #EBB042;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	color: #52380A;
+	font-family: 'Pacifico', cursive;
+}
+
+h1, ._h1 {
+	font-size: 80px;
+	line-height: 110px;
+}
+
+._brown {
+	color: #52380A;
+}
+
+a.Button {
+	line-height: 40px;
+}
+
+.Button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 20px;
+	height: 100%;
+	background-color: #523B12;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 0;
+}
+
+.Button:hover {
+	background-color: #674b1a;
+}
+
+.Row {
+	margin: 200px 0 0;
+	align-items: center;
+}
+
+.Form .form-item input {
+	height: 46px;
+	color: #523B12;
+	background-color: transparent;
+	font-weight: 700;
+	border: 2px solid #523B12;
+	border-radius: 0;
+}
+
+.Form .form-item input::placeholder {
+	color: #523B12;
+}
+
+.resultados {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 20px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.resultados ._brown {
+	margin: 0 0 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
